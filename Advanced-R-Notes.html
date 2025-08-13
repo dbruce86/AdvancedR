@@ -359,59 +359,65 @@ display: none;
 <h2>Chapter 2: Data Structures</h2>
 <div id="useful-commands-in-chapter" class="section level3">
 <h3>Useful Commands in Chapter</h3>
-<p>str() typeof()</p>
+<p>str()</p>
+<p>typeof()</p>
 </div>
 <div id="atomic-vectors-2.1.2-types-and-tests" class="section level3">
 <h3>2.1.1 Atomic Vectors + 2.1.2 Types and tests</h3>
 <pre class="r"><code>dbl_var &lt;- c(1,2.5,4.5)
-typeof(dbl_var) #[1] &quot;double&quot;</code></pre>
+typeof(dbl_var)</code></pre>
 <pre><code>## [1] &quot;double&quot;</code></pre>
-<pre class="r"><code># [1] &quot;double&quot;
-str(dbl_var)</code></pre>
+<pre class="r"><code>str(dbl_var)</code></pre>
 <pre><code>##  num [1:3] 1 2.5 4.5</code></pre>
-<pre class="r"><code>#  num [1:3] 1 2.5 4.5
-is.double(dbl_var)</code></pre>
+<pre class="r"><code>is.double(dbl_var)</code></pre>
 <pre><code>## [1] TRUE</code></pre>
-<pre class="r"><code>#[1] TRUE
-is.atomic(dbl_var)</code></pre>
+<pre class="r"><code>is.atomic(dbl_var)</code></pre>
 <pre><code>## [1] TRUE</code></pre>
-<pre class="r"><code>#[1] TRUE
-is.numeric(dbl_var)</code></pre>
+<pre class="r"><code>is.numeric(dbl_var)</code></pre>
 <pre><code>## [1] TRUE</code></pre>
-<pre class="r"><code>#[1] TRUE
-
-dbl_var2&lt;-c(1,2,3)
+<pre class="r"><code>dbl_var2&lt;-c(1,2,3)
 typeof(dbl_var2)</code></pre>
 <pre><code>## [1] &quot;double&quot;</code></pre>
-<pre class="r"><code># [1] &quot;double&quot;
-str(dbl_var2)</code></pre>
+<pre class="r"><code>str(dbl_var2)</code></pre>
 <pre><code>##  num [1:3] 1 2 3</code></pre>
-<pre class="r"><code># num [1:3] 1 2 3
-is.integer(dbl_var2)</code></pre>
+<pre class="r"><code>is.integer(dbl_var2)</code></pre>
 <pre><code>## [1] FALSE</code></pre>
-<pre class="r"><code>#[1] FALSE
-
-int_var&lt;- c(1L, 2L, 3L)
+<pre class="r"><code>int_var&lt;- c(1L, 2L, 3L)
 typeof(int_var)</code></pre>
 <pre><code>## [1] &quot;integer&quot;</code></pre>
-<pre class="r"><code># [1] &quot;integer&quot;
-str(int_var)</code></pre>
+<pre class="r"><code>str(int_var)</code></pre>
 <pre><code>##  int [1:3] 1 2 3</code></pre>
-<pre class="r"><code>#  num [1:3] 1 2 3
-is.integer(int_var)</code></pre>
+<pre class="r"><code>is.integer(int_var)</code></pre>
 <pre><code>## [1] TRUE</code></pre>
-<pre class="r"><code>#[1] TRUE</code></pre>
+<pre class="r"><code>log_var &lt;- c(TRUE, FALSE, T, F)
+typeof(log_var)</code></pre>
+<pre><code>## [1] &quot;logical&quot;</code></pre>
+<pre class="r"><code>str(log_var)</code></pre>
+<pre><code>##  logi [1:4] TRUE FALSE TRUE FALSE</code></pre>
+<pre class="r"><code>is.logical(log_var)</code></pre>
+<pre><code>## [1] TRUE</code></pre>
+<pre class="r"><code>char_var&lt;-c(&quot;these are&quot;, &quot;some Strings&quot;)
+typeof(char_var)</code></pre>
+<pre><code>## [1] &quot;character&quot;</code></pre>
+<pre class="r"><code>str(char_var)</code></pre>
+<pre><code>##  chr [1:2] &quot;these are&quot; &quot;some Strings&quot;</code></pre>
+<pre class="r"><code>is.character(char_var)</code></pre>
+<pre><code>## [1] TRUE</code></pre>
 </div>
 </div>
 <div id="chapter-4-vocabulary" class="section level2">
 <h2>Chapter 4: Vocabulary</h2>
 <div id="unplaced" class="section level4">
 <h4>Unplaced</h4>
-<p>str c &lt;-</p>
+<p>str</p>
+<p>c</p>
+<p>&lt;-</p>
 </div>
 <div id="interesting-functions" class="section level4">
 <h4>Interesting functions</h4>
-<p>demo help help.start q</p>
+<p>demo</p>
+<p>help</p>
+<p>help.start q</p>
 </div>
 <div id="basics" class="section level3">
 <h3>Basics</h3>
